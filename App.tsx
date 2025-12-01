@@ -1006,7 +1006,7 @@ const App: React.FC = () => {
              {/* RIGHT COLUMN */}
              <div className="flex-1 flex flex-col relative">
                   {/* BACKGROUND */}
-                  <div className="absolute inset-0 bg-[url('/assets/backgrounds/bg.jpg')] bg-cover opacity-30 z-0 pointer-events-none"></div>
+                  <div className="absolute inset-0 bg-[url('assets/backgrounds/bg.jpg')] bg-cover opacity-30 z-0 pointer-events-none"></div>
                   
                   {/* TOP HUD */}
                   <TopHUD 
