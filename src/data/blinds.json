@@ -1,0 +1,242 @@
+[
+  {
+    "id": "b_small_blind",
+    "name": "Small Blind",
+    "scoreBase": "No special effects - can be skipped to receive a Tag",
+    "reward": "1",
+    "effect": "1x base",
+    "img": "/assets/blinds/b_small_blind.png"
+  },
+  {
+    "id": "b_big_blind",
+    "name": "Big Blind",
+    "scoreBase": "No special effects - can be skipped to receive a Tag",
+    "reward": "1",
+    "effect": "1.5x base",
+    "img": "/assets/blinds/b_big_blind.png"
+  },
+  {
+    "id": "b_the_hook",
+    "name": "The Hook",
+    "scoreBase": "Discards 2 random cards held in hand after every played hand",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_hook.png"
+  },
+  {
+    "id": "b_the_ox",
+    "name": "The Ox",
+    "scoreBase": "Playing your most played hand this run sets money to $0",
+    "reward": "6",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_ox.png"
+  },
+  {
+    "id": "b_the_house",
+    "name": "The House",
+    "scoreBase": "First hand is drawn face down",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_house.png"
+  },
+  {
+    "id": "b_the_wall",
+    "name": "The Wall",
+    "scoreBase": "Extra large blind",
+    "reward": "2",
+    "effect": "4x base",
+    "img": "/assets/blinds/b_the_wall.png"
+  },
+  {
+    "id": "b_the_wheel",
+    "name": "The Wheel",
+    "scoreBase": "1 in 7 cards get drawn face down during the round",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_wheel.png"
+  },
+  {
+    "id": "b_the_arm",
+    "name": "The Arm",
+    "scoreBase": "Decrease level of played poker hand by 1 (hand levels can go as low as Level 1, and are reduced before scoring)",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_arm.png"
+  },
+  {
+    "id": "b_the_club",
+    "name": "The Club",
+    "scoreBase": "All Club cards are debuffed",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_club.png"
+  },
+  {
+    "id": "b_the_fish",
+    "name": "The Fish",
+    "scoreBase": "Cards drawn face down after each hand played",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_fish.png"
+  },
+  {
+    "id": "b_the_psychic",
+    "name": "The Psychic",
+    "scoreBase": "Must play 5 cards (not all cards need to score)",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_psychic.png"
+  },
+  {
+    "id": "b_the_goad",
+    "name": "The Goad",
+    "scoreBase": "All Spade cards are debuffed",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_goad.png"
+  },
+  {
+    "id": "b_the_water",
+    "name": "The Water",
+    "scoreBase": "Start with 0 discards",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_water.png"
+  },
+  {
+    "id": "b_the_window",
+    "name": "The Window",
+    "scoreBase": "All Diamond cards are debuffed",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_window.png"
+  },
+  {
+    "id": "b_the_manacle",
+    "name": "The Manacle",
+    "scoreBase": "-1 Hand Size",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_manacle.png"
+  },
+  {
+    "id": "b_the_eye",
+    "name": "The Eye",
+    "scoreBase": "No repeat hand types this round (every hand played this round must be of a different type and not previously played this round)",
+    "reward": "3",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_eye.png"
+  },
+  {
+    "id": "b_the_mouth",
+    "name": "The Mouth",
+    "scoreBase": "Only one hand type can be played this round",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_mouth.png"
+  },
+  {
+    "id": "b_the_plant",
+    "name": "The Plant",
+    "scoreBase": "All face cards are debuffed",
+    "reward": "4",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_plant.png"
+  },
+  {
+    "id": "b_the_serpent",
+    "name": "The Serpent",
+    "scoreBase": "After Play or Discard, always draw 3 cards (ignores hand size)",
+    "reward": "5",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_serpent.png"
+  },
+  {
+    "id": "b_the_pillar",
+    "name": "The Pillar",
+    "scoreBase": "Cards played previously this Ante (during Small and Big Blinds) are debuffed",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_pillar.png"
+  },
+  {
+    "id": "b_the_needle",
+    "name": "The Needle",
+    "scoreBase": "Play only 1 hand",
+    "reward": "2",
+    "effect": "1x base",
+    "img": "/assets/blinds/b_the_needle.png"
+  },
+  {
+    "id": "b_the_head",
+    "name": "The Head",
+    "scoreBase": "All Heart cards are debuffed",
+    "reward": "1",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_head.png"
+  },
+  {
+    "id": "b_the_tooth",
+    "name": "The Tooth",
+    "scoreBase": "Lose $1 per card played",
+    "reward": "3",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_tooth.png"
+  },
+  {
+    "id": "b_the_flint",
+    "name": "The Flint",
+    "scoreBase": "Base Chips and Mult for played poker hands are halved for the entire round",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_flint.png"
+  },
+  {
+    "id": "b_the_mark",
+    "name": "The Mark",
+    "scoreBase": "All face cards are drawn face down",
+    "reward": "2",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_the_mark.png"
+  },
+  {
+    "id": "b_amber_acorn",
+    "name": "Amber Acorn",
+    "scoreBase": "Flips and shuffles all Joker cards",
+    "reward": "8",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_amber_acorn.png"
+  },
+  {
+    "id": "b_verdant_leaf",
+    "name": "Verdant Leaf",
+    "scoreBase": "All cards debuffed until 1 Joker sold",
+    "reward": "8",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_verdant_leaf.png"
+  },
+  {
+    "id": "b_violet_vessel",
+    "name": "Violet Vessel",
+    "scoreBase": "Very large blind",
+    "reward": "8",
+    "effect": "6x base",
+    "img": "/assets/blinds/b_violet_vessel.png"
+  },
+  {
+    "id": "b_crimson_heart",
+    "name": "Crimson Heart",
+    "scoreBase": "One random Joker disabled every hand (changes every hand)",
+    "reward": "8",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_crimson_heart.png"
+  },
+  {
+    "id": "b_cerulean_bell",
+    "name": "Cerulean Bell",
+    "scoreBase": "Forces 1 card to always be selected",
+    "reward": "8",
+    "effect": "2x base",
+    "img": "/assets/blinds/b_cerulean_bell.png"
+  }
+]

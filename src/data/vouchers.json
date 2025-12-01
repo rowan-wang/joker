@@ -1,0 +1,135 @@
+[
+  {
+    "id": "v__1_card_slot_available_in_shop__to_3_slots_",
+    "name": "+1 card slot available in shop (to 3 slots)",
+    "description": "Overstock Plus",
+    "price": 10,
+    "img": "/assets/vouchers/v__1_card_slot_available_in_shop__to_3_slots_.png"
+  },
+  {
+    "id": "v_all_cards_and_packs_in_shop_are_25__off",
+    "name": "All cards and packs in shop are 25% off",
+    "description": "Liquidation",
+    "price": 10,
+    "img": "/assets/vouchers/v_all_cards_and_packs_in_shop_are_25__off.png"
+  },
+  {
+    "id": "v_foil__holographic__and_polychrome_cards_appear_2x_more_often",
+    "name": "Foil, Holographic, and Polychrome cards appear 2x more often",
+    "description": "Glow Up",
+    "price": 10,
+    "img": "/assets/vouchers/v_foil__holographic__and_polychrome_cards_appear_2x_more_often.png"
+  },
+  {
+    "id": "v_rerolls_cost__2_less",
+    "name": "Rerolls cost $2 less",
+    "description": "Reroll Glut",
+    "price": 10,
+    "img": "/assets/vouchers/v_rerolls_cost__2_less.png"
+  },
+  {
+    "id": "v__1_consumable_slot",
+    "name": "+1 consumable slot",
+    "description": "Omen Globe",
+    "price": 10,
+    "img": "/assets/vouchers/v__1_consumable_slot.png"
+  },
+  {
+    "id": "v_celestial_packs_always_contain_the_planet_card_for_your_most_played_poker_hand",
+    "name": "Celestial Packs always contain the Planet card for your most played poker hand",
+    "description": "Observatory",
+    "price": 10,
+    "img": "/assets/vouchers/v_celestial_packs_always_contain_the_planet_card_for_your_most_played_poker_hand.png"
+  },
+  {
+    "id": "v_permanently_gain__1_hand_per_round",
+    "name": "Permanently gain +1 hand per round",
+    "description": "Nacho Tong",
+    "price": 10,
+    "img": "/assets/vouchers/v_permanently_gain__1_hand_per_round.png"
+  },
+  {
+    "id": "v_permanently_gain__1_discard_each_round",
+    "name": "Permanently gain +1 discard each round",
+    "description": "Recyclomancy",
+    "price": 10,
+    "img": "/assets/vouchers/v_permanently_gain__1_discard_each_round.png"
+  },
+  {
+    "id": "v_tarot_cards_appear_2x_more_frequently_in_the_shop",
+    "name": "Tarot cards appear 2X more frequently in the shop",
+    "description": "Tarot Tycoon",
+    "price": 10,
+    "img": "/assets/vouchers/v_tarot_cards_appear_2x_more_frequently_in_the_shop.png"
+  },
+  {
+    "id": "v_planet_cards_appear_2x_more_frequently_in_the_shop",
+    "name": "Planet cards appear 2X more frequently in the shop",
+    "description": "Planet Tycoon",
+    "price": 10,
+    "img": "/assets/vouchers/v_planet_cards_appear_2x_more_frequently_in_the_shop.png"
+  },
+  {
+    "id": "v_raise_the_cap_on_interest_earned_in_each_round_to__10",
+    "name": "Raise the cap on interest earned in each round to $10",
+    "description": "Money Tree",
+    "price": 10,
+    "img": "/assets/vouchers/v_raise_the_cap_on_interest_earned_in_each_round_to__10.png"
+  },
+  {
+    "id": "v_does_nothing_",
+    "name": "Does nothing?",
+    "description": "Antimatter",
+    "price": 10,
+    "img": "/assets/vouchers/v_does_nothing_.png"
+  },
+  {
+    "id": "v_playing_cards_can_be_purchased_from_the_shop",
+    "name": "Playing cards can be purchased from the shop",
+    "description": "Illusion",
+    "price": 10,
+    "img": "/assets/vouchers/v_playing_cards_can_be_purchased_from_the_shop.png"
+  },
+  {
+    "id": "v__1_ante____1_hand_each_round",
+    "name": "-1 Ante,  -1 hand each round",
+    "description": "Petroglyph",
+    "price": 10,
+    "img": "/assets/vouchers/v__1_ante____1_hand_each_round.png"
+  },
+  {
+    "id": "v_reroll_boss_blind_1_time_per_ante___10_per_roll",
+    "name": "Reroll Boss Blind 1 time per Ante, $10 per roll",
+    "description": "Retcon",
+    "price": 10,
+    "img": "/assets/vouchers/v_reroll_boss_blind_1_time_per_ante___10_per_roll.png"
+  },
+  {
+    "id": "v__1_hand_size",
+    "name": "+1 Hand Size",
+    "description": "Palette",
+    "price": 10,
+    "img": "/assets/vouchers/v__1_hand_size.png"
+  },
+  {
+    "id": "v_your_1_most_played_card_this_run_is_always_drawn_to_hand_at_start_of_round",
+    "name": "Your 1 most played card this run is always drawn to hand at start of round",
+    "description": "Electromagnet",
+    "price": 10,
+    "img": "/assets/vouchers/v_your_1_most_played_card_this_run_is_always_drawn_to_hand_at_start_of_round.png"
+  },
+  {
+    "id": "v_spawns_your_all_time_most_used_tarot_planet_card__if_you_have_room",
+    "name": "Spawns your all time most used Tarot/Planet card, if you have room",
+    "description": "Tesselation",
+    "price": 10,
+    "img": "/assets/vouchers/v_spawns_your_all_time_most_used_tarot_planet_card__if_you_have_room.png"
+  },
+  {
+    "id": "v_start_your_next_run_with_a_bonus_of__5",
+    "name": "Start your next run with a bonus of $5",
+    "description": "Heirloom",
+    "price": 10,
+    "img": "/assets/vouchers/v_start_your_next_run_with_a_bonus_of__5.png"
+  }
+]

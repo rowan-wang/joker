@@ -1,0 +1,156 @@
+[
+  {
+    "id": "t_the_fool__0_",
+    "name": "The Fool (0)",
+    "description": "Creates a copy of the last Tarot or Planet card used.\n( The Fool excluded)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_fool__0_.png"
+  },
+  {
+    "id": "t_the_magician__i_",
+    "name": "The Magician (I)",
+    "description": "Enhances 2 selected cards to Lucky Cards",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_magician__i_.png"
+  },
+  {
+    "id": "t_the_high_priestess__ii_",
+    "name": "The High Priestess (II)",
+    "description": "Creates up to 2 random Planet cards(Must have room)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_high_priestess__ii_.png"
+  },
+  {
+    "id": "t_the_empress__iii_",
+    "name": "The Empress (III)",
+    "description": "Enhances 2 selected cards to Mult Cards",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_empress__iii_.png"
+  },
+  {
+    "id": "t_the_emperor__iv_",
+    "name": "The Emperor (IV)",
+    "description": "Creates up to 2 random Tarot cards(Must have room)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_emperor__iv_.png"
+  },
+  {
+    "id": "t_the_hierophant__v_",
+    "name": "The Hierophant (V)",
+    "description": "Enhances 2 selected cards to Bonus Cards",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_hierophant__v_.png"
+  },
+  {
+    "id": "t_the_lovers__vi_",
+    "name": "The Lovers (VI)",
+    "description": "Enhances 1 selected card into a Wild Card",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_lovers__vi_.png"
+  },
+  {
+    "id": "t_the_chariot__vii_",
+    "name": "The Chariot (VII)",
+    "description": "Enhances 1 selected card into a Steel Card",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_chariot__vii_.png"
+  },
+  {
+    "id": "t_justice__viii_",
+    "name": "Justice (VIII)",
+    "description": "Enhances 1 selected card into a Glass Card",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_justice__viii_.png"
+  },
+  {
+    "id": "t_the_hermit__ix_",
+    "name": "The Hermit (IX)",
+    "description": "Doubles money(Max of $20)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_hermit__ix_.png"
+  },
+  {
+    "id": "t_the_wheel_of_fortune__x_",
+    "name": "The Wheel of Fortune (X)",
+    "description": "1 in 4 chance to add Foil, Holographic, or Polychrome edition to a random Joker",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_wheel_of_fortune__x_.png"
+  },
+  {
+    "id": "t_strength__xi_",
+    "name": "Strength (XI)",
+    "description": "Increases rank of up to 2 selected cards by 1(Rank order: A→2→3→4→5→6→7→8→9→10→J→Q→K→A)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_strength__xi_.png"
+  },
+  {
+    "id": "t_the_hanged_man__xii_",
+    "name": "The Hanged Man (XII)",
+    "description": "Destroys up to 2 selected cards",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_hanged_man__xii_.png"
+  },
+  {
+    "id": "t_death__xiii_",
+    "name": "Death (XIII)",
+    "description": "Select 2 cards, convert the left card into the right card(Drag to rearrange)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_death__xiii_.png"
+  },
+  {
+    "id": "t_temperance__xiv_",
+    "name": "Temperance (XIV)",
+    "description": "Gives the total sell value of all current Jokers(Max of $50)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_temperance__xiv_.png"
+  },
+  {
+    "id": "t_the_devil__xv_",
+    "name": "The Devil (XV)",
+    "description": "Enhances 1 selected card into a Gold Card",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_devil__xv_.png"
+  },
+  {
+    "id": "t_the_tower__xvi_",
+    "name": "The Tower (XVI)",
+    "description": "Enhances 1 selected card into a Stone Card",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_tower__xvi_.png"
+  },
+  {
+    "id": "t_the_star__xvii_",
+    "name": "The Star (XVII)",
+    "description": "Converts up to 3 selected cards to  Diamonds",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_star__xvii_.png"
+  },
+  {
+    "id": "t_the_moon__xviii_",
+    "name": "The Moon (XVIII)",
+    "description": "Converts up to 3 selected cards to  Clubs",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_moon__xviii_.png"
+  },
+  {
+    "id": "t_the_sun__xix_",
+    "name": "The Sun (XIX)",
+    "description": "Converts up to 3 selected cards to  Hearts",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_sun__xix_.png"
+  },
+  {
+    "id": "t_judgement__xx_",
+    "name": "Judgement (XX)",
+    "description": "Creates a random Joker card (without in-run stickers)(Must have room)",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_judgement__xx_.png"
+  },
+  {
+    "id": "t_the_world__xxi_",
+    "name": "The World (XXI)",
+    "description": "Converts up to 3 selected cards to  Spades",
+    "type": "Tarot",
+    "img": "/assets/tarot_cards/t_the_world__xxi_.png"
+  }
+]
