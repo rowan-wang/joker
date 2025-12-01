@@ -11,7 +11,7 @@ const StartMenu: React.FC<StartMenuProps> = ({ onStart }) => {
       <div 
         className="absolute inset-0 z-0 opacity-50"
         style={{
-          backgroundImage: 'url(/joker/assets/backgrounds/bg.jpg)',
+          backgroundImage: 'url(assets/backgrounds/bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
