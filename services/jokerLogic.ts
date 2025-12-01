@@ -2,7 +2,7 @@ import { HandType, ICard, IJoker } from '../types';
 
 // Types for different trigger contexts
 export type JokerTriggerContext = 
-  | { type: 'onPlay'; handType: HandType; playedCards: ICard[]; scoringCards: ICard[]; handLevel: number }
+  | { type: 'onPlay'; handType: HandType; playedCards: ICard[]; scoringCards: ICard[]; handLevel: number; money?: number }
   | { type: 'onDiscard'; discardedCards: ICard[] }
   | { type: 'onHeld'; hand: ICard[] }
   | { type: 'onEndRound'; handsLeft: number; money: number }
@@ -16,7 +16,8 @@ export interface JokerEffectResult {
   sound?: 'chip' | 'mult' | 'xmult' | 'coin';
   message?: string; // For toast or overlay
   triggered: boolean;
-  action?: 'create_tarot' | 'create_planet' | 'upgrade_hand'; // New action field
+  action?: 'create_tarot' | 'create_planet' | 'upgrade_hand' | 'add_card_to_deck'; // New action field
+  cardData?: ICard; // For add_card_to_deck
 }
 
 // Helper to check array inclusion
@@ -30,7 +31,7 @@ export const IMPLEMENTED_JOKERS = [
     'j_jolly', 'j_zany', 'j_mad', 'j_crazy', 'j_droll',
     'j_sly', 'j_wily', 'j_clever', 'j_devious', 'j_crafty',
     'j_half', 'j_gros_michel', 'j_abstract', 'j_supernova',
-    'j_space_joker',
+    'j_space_joker', 'j_dna', 'j_vagabond', 'j_superposition',
     'j_baron', 'j_steel_joker', 'j_shoot_the_moon', 'j_raised_fist',
     'j_golden', 'j_cloud_9', 'j_rocket'
 ];
@@ -241,6 +242,40 @@ export const calculateJokerEffect = (joker: IJoker, context: JokerTriggerContext
              result.triggered = true;
          }
          break;
+
+      case 'j_space_joker': // 1 in 4 chance to upgrade level of played poker hand
+         if (Math.random() < 0.25) {
+             result.action = 'upgrade_hand';
+             result.message = 'Level Up!';
+             result.triggered = true;
+         }
+         break;
+
+      case 'j_dna': // If played hand has only 1 card, add a permanent copy to deck and draw it to hand
+         if (playedCards.length === 1) {
+             result.action = 'add_card_to_deck';
+             result.cardData = playedCards[0]; // Copy the card
+             result.message = 'Copied!';
+             result.triggered = true;
+         }
+         break;
+
+      case 'j_vagabond': // Create a Tarot card if played hand is played with $3 or less
+         if (context.money !== undefined && context.money <= 3) {
+             result.action = 'create_tarot';
+             result.message = 'Tarot Created!';
+             result.triggered = true;
+         }
+         break;
+
+      case 'j_superposition': // Create a Tarot card if poker hand contains an Ace and a Straight
+         if (handType.includes('Straight') && playedCards.some(c => c.rank === 'A')) {
+             result.action = 'create_tarot';
+             result.message = 'Tarot Created!';
+             result.triggered = true;
+         }
+         break;
+
     }
   }
 

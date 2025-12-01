@@ -17,6 +17,7 @@ import HandGuide from './components/HandGuide'; // Import HandGuide
 import { BOSS_BLINDS, IBlindDef } from './services/gameData';
 
 import { PLANET_CARDS } from './services/planetData';
+import TAROT_CARDS from './src/data/tarot_cards.json';
 
 // ----------------------------------------------------------------------
 // Types & States for Animation
@@ -642,7 +643,8 @@ const App: React.FC = () => {
             handType: evalResult.type, 
             playedCards: cardsToPlay, 
             scoringCards: evalResult.scoringCards,
-            handLevel: handLevels[evalResult.type].level
+            handLevel: handLevels[evalResult.type].level,
+            money: money
         });
 
         if (effect && effect.triggered) {
@@ -678,27 +680,43 @@ const App: React.FC = () => {
             }
             
             if (effect.action === 'create_tarot') {
-                // Mock: Add a random Planet instead for now as Tarot system isn't fully linked
-                // Or just show toast
+                // Show toast
                 const toast = document.createElement('div');
                 toast.className = "fixed top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/90 text-white px-6 py-4 rounded-xl border-2 border-purple-400 z-[100] animate-bounce-in pointer-events-none";
-                toast.innerHTML = `<div class="text-xl font-bold text-purple-300">${effect.message || '生成塔罗牌!'}</div><div class="text-sm text-gray-400">(暂以星球牌代替)</div>`;
+                toast.innerHTML = `<div class="text-xl font-bold text-purple-300">${effect.message || '生成塔罗牌!'}</div>`;
                 document.body.appendChild(toast);
                 setTimeout(() => toast.remove(), 2000);
 
-                // Add a random planet to consumables if space
-                if (consumables.length < 3) {
-                     const randomPlanet = PLANET_CARDS[Math.floor(Math.random() * PLANET_CARDS.length)];
+                // Add a random tarot to consumables if space
+                if (consumables.length < 3) { // Assuming 2 slots default + 1 maybe, simplified check
+                     const randomTarot = TAROT_CARDS[Math.floor(Math.random() * TAROT_CARDS.length)];
                      setConsumables(prev => [...prev, {
-                          id: `c_gen_${Date.now()}`,
-                          type: 'Planet',
-                          name: randomPlanet.name,
-                          description: randomPlanet.desc,
+                          id: `c_gen_${Date.now()}_${Math.random()}`,
+                          type: 'Tarot',
+                          name: randomTarot.name,
+                          description: randomTarot.description,
                           price: 0,
-                          effect: randomPlanet.effect,
-                          img: randomPlanet.img
+                          effect: 'TODO', // Simplify for now
+                          img: randomTarot.img
                      }]);
                 }
+            }
+
+            if (effect.action === 'add_card_to_deck' && effect.cardData) {
+                const newCard = { ...effect.cardData, id: `c_copy_${Date.now()}_${Math.random()}` };
+                
+                // Add to deck state
+                setDeck(prev => [...prev, newCard]);
+                
+                // Draw to hand
+                setHand(prev => [...prev, newCard]);
+
+                // Show toast
+                const toast = document.createElement('div');
+                toast.className = "fixed top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/90 text-white px-6 py-4 rounded-xl border-2 border-blue-400 z-[100] animate-bounce-in pointer-events-none";
+                toast.innerHTML = `<div class="text-xl font-bold text-blue-300">${effect.message || '复制卡牌!'}</div>`;
+                document.body.appendChild(toast);
+                setTimeout(() => toast.remove(), 2000);
             }
         } 
 
