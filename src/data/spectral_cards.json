@@ -1,0 +1,128 @@
+[
+  {
+    "id": "s_familiar",
+    "name": "Familiar",
+    "description": "Destroy 1 random card in your hand, add 3 random Enhanced Face Cards to your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_familiar.png"
+  },
+  {
+    "id": "s_grim",
+    "name": "Grim",
+    "description": "Destroy 1 random card in your hand, add 2 random Enhanced Aces to your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_grim.png"
+  },
+  {
+    "id": "s_incantation",
+    "name": "Incantation",
+    "description": "Destroy 1 random card in your hand, add 4 random Enhanced Numbered Cards to your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_incantation.png"
+  },
+  {
+    "id": "s_talisman",
+    "name": "Talisman",
+    "description": "Add a Gold Seal to 1 selected card in your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_talisman.png"
+  },
+  {
+    "id": "s_aura",
+    "name": "Aura",
+    "description": "Add Foil, Holographic, or Polychrome edition to 1 selected card in your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_aura.png"
+  },
+  {
+    "id": "s_wraith",
+    "name": "Wraith",
+    "description": "Creates a random Rare Joker, sets money to $0.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_wraith.png"
+  },
+  {
+    "id": "s_sigil",
+    "name": "Sigil",
+    "description": "Converts all cards in hand to a single random Suit.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_sigil.png"
+  },
+  {
+    "id": "s_ouija",
+    "name": "Ouija",
+    "description": "Converts all cards in hand to a single random Rank, decrease hand size by 1.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_ouija.png"
+  },
+  {
+    "id": "s_ectoplasm",
+    "name": "Ectoplasm",
+    "description": "Add Negative to a random Joker, decrease hand size by 1.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_ectoplasm.png"
+  },
+  {
+    "id": "s_immolate",
+    "name": "Immolate",
+    "description": "Destroy 5 random cards in hand, gain $20.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_immolate.png"
+  },
+  {
+    "id": "s_ankh",
+    "name": "Ankh",
+    "description": "Create a copy of a random Joker, destroy all other Jokers.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_ankh.png"
+  },
+  {
+    "id": "s_deja_vu",
+    "name": "Deja Vu",
+    "description": "Add a Red Seal to 1 selected card in your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_deja_vu.png"
+  },
+  {
+    "id": "s_hex",
+    "name": "Hex",
+    "description": "Add Polychrome to a random Joker, destroy all other Jokers.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_hex.png"
+  },
+  {
+    "id": "s_trance",
+    "name": "Trance",
+    "description": "Add a Blue Seal to 1 selected card in your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_trance.png"
+  },
+  {
+    "id": "s_medium",
+    "name": "Medium",
+    "description": "Add a Purple Seal to 1 selected card in your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_medium.png"
+  },
+  {
+    "id": "s_cryptid",
+    "name": "Cryptid",
+    "description": "Create 2 copies of 1 selected card in your hand.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_cryptid.png"
+  },
+  {
+    "id": "s_soul",
+    "name": "The Soul",
+    "description": "Creates a Legendary Joker. (Must have room)",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_soul.png"
+  },
+  {
+    "id": "s_black_hole",
+    "name": "Black Hole",
+    "description": "Upgrade every Poker Hand by 1 level.",
+    "type": "Spectral",
+    "img": "assets/spectral_cards/s_black_hole.png"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p_arcana_normal",
+    "name": "Arcana Pack",
+    "description": "Choose 1 of 3 Tarot cards to use immediately",
+    "price": 4,
+    "type": "Arcana",
+    "img": "assets/packs/p_arcana_normal.png"
+  },
+  {
+    "id": "p_arcana_jumbo",
+    "name": "Jumbo Arcana Pack",
+    "description": "Choose 1 of 5 Tarot cards to use immediately",
+    "price": 6,
+    "type": "Arcana",
+    "img": "assets/packs/p_arcana_jumbo.png"
+  },
+  {
+    "id": "p_arcana_mega",
+    "name": "Mega Arcana Pack",
+    "description": "Choose 2 of 5 Tarot cards to use immediately",
+    "price": 8,
+    "type": "Arcana",
+    "img": "assets/packs/p_arcana_mega.png"
+  },
+  {
+    "id": "p_celestial_normal",
+    "name": "Celestial Pack",
+    "description": "Choose 1 of 3 Planet cards to use immediately",
+    "price": 4,
+    "type": "Celestial",
+    "img": "assets/packs/p_celestial_normal.png"
+  },
+  {
+    "id": "p_celestial_jumbo",
+    "name": "Jumbo Celestial Pack",
+    "description": "Choose 1 of 5 Planet cards to use immediately",
+    "price": 6,
+    "type": "Celestial",
+    "img": "assets/packs/p_celestial_jumbo.png"
+  },
+  {
+    "id": "p_celestial_mega",
+    "name": "Mega Celestial Pack",
+    "description": "Choose 2 of 5 Planet cards to use immediately",
+    "price": 8,
+    "type": "Celestial",
+    "img": "assets/packs/p_celestial_mega.png"
+  },
+  {
+    "id": "p_standard_normal",
+    "name": "Standard Pack",
+    "description": "Choose 1 of 3 Playing cards to add to your deck",
+    "price": 4,
+    "type": "Standard",
+    "img": "assets/packs/p_standard_normal.png"
+  },
+  {
+    "id": "p_standard_jumbo",
+    "name": "Jumbo Standard Pack",
+    "description": "Choose 1 of 5 Playing cards to add to your deck",
+    "price": 6,
+    "type": "Standard",
+    "img": "assets/packs/p_standard_jumbo.png"
+  },
+  {
+    "id": "p_standard_mega",
+    "name": "Mega Standard Pack",
+    "description": "Choose 2 of 5 Playing cards to add to your deck",
+    "price": 8,
+    "type": "Standard",
+    "img": "assets/packs/p_standard_mega.png"
+  },
+  {
+    "id": "p_buffoon_normal",
+    "name": "Buffoon Pack",
+    "description": "Choose 1 of 2 Joker cards",
+    "price": 4,
+    "type": "Buffoon",
+    "img": "assets/packs/p_buffoon_normal.png"
+  },
+  {
+    "id": "p_buffoon_jumbo",
+    "name": "Jumbo Buffoon Pack",
+    "description": "Choose 1 of 4 Joker cards",
+    "price": 6,
+    "type": "Buffoon",
+    "img": "assets/packs/p_buffoon_jumbo.png"
+  },
+  {
+    "id": "p_buffoon_mega",
+    "name": "Mega Buffoon Pack",
+    "description": "Choose 2 of 4 Joker cards",
+    "price": 8,
+    "type": "Buffoon",
+    "img": "assets/packs/p_buffoon_mega.png"
+  },
+  {
+    "id": "p_spectral_normal",
+    "name": "Spectral Pack",
+    "description": "Choose 1 of 2 Spectral cards to use immediately",
+    "price": 4,
+    "type": "Spectral",
+    "img": "assets/packs/p_spectral_normal.png"
+  },
+  {
+    "id": "p_spectral_jumbo",
+    "name": "Jumbo Spectral Pack",
+    "description": "Choose 1 of 4 Spectral cards to use immediately",
+    "price": 6,
+    "type": "Spectral",
+    "img": "assets/packs/p_spectral_jumbo.png"
+  },
+  {
+    "id": "p_spectral_mega",
+    "name": "Mega Spectral Pack",
+    "description": "Choose 2 of 4 Spectral cards to use immediately",
+    "price": 8,
+    "type": "Spectral",
+    "img": "assets/packs/p_spectral_mega.png"
+  }
+]
